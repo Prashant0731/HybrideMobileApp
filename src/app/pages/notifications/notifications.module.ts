@@ -4,18 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { IndexPageRoutingModule } from './index-routing.module';
+import { NotificationsPageRoutingModule } from './notifications-routing.module';
 
-import { IndexPage } from './index.page';
+import { NotificationsPage } from './notifications.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    IndexPageRoutingModule
+    NotificationsPageRoutingModule
   ],
-  declarations: [IndexPage]
+  declarations: [NotificationsPage]
 })
-export class IndexPageModule {}
-  
+export class NotificationsPageModule {}
