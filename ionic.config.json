@@ -1,0 +1,7 @@
+{
+  "name": "MalaysiaAirlines",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
