@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "MalaysiaAirlines",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

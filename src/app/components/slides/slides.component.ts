@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './slides.component.html',
   styleUrls: ['./slides.component.scss'],
 })
-export class SlidesComponent implements OnInit {
+export class SlidesComponent {
 
 // Optional parameters to pass to the swiper instance.
 // See http://idangero.us/swiper/api/ for valid options.
@@ -16,6 +16,5 @@ export class SlidesComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {}
 
 }

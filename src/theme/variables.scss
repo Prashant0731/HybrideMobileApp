@@ -3,6 +3,34 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  /** primary end **/
+  --ion-color-mango: #006dbb;
+  --ion-color-mango-rgb: 255,204,102;
+  --ion-color-mango-contrast: #ffffff;
+  --ion-color-mango-contrast-rgb: 0,0,0;
+  --ion-color-mango-shade: #e0b45a;
+  --ion-color-mango-tint: #ffd175;
+
+  ion-tab-button.tab-selected {
+  ion-icon, 
+  ion-label {
+  color: var(--ion-color-mango) !important;
+  --ion-color-base: var(--ion-color-mango) !important;
+  }
+  }
+
+  .ion-color-mango {
+  --ion-color-base: var(--ion-color-mango);
+  --ion-color-base-rgb: var(--ion-color-mango-rgb);
+  --ion-color-contrast: var(--ion-color-mango-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-mango-contrast-rgb);
+  --ion-color-shade: var(--ion-color-mango-shade);
+  --ion-color-tint: var(--ion-color-mango-tint);
+  }
+
+  
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -233,4 +261,10 @@
 
     --ion-card-background: #1e1e1e;
   }
+
+  .center {
+    text-align: center;
+  }
+
 }
+

@@ -1,4 +1,15 @@
 // /* Without setting height the slides will take up the height of the slide's content */
-// ion-slides {
-//     height: 100%;
-//   }
+
+ion-slide {
+    padding: 160px 20px 160px 20px;
+    display: block;
+
+     img {
+       width: 150px;
+     }
+  
+    h2 {
+      font-size: 25px;
+      font-weight: bold;
+    }
+  }
